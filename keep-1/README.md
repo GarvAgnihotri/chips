@@ -26,7 +26,7 @@ Each of the ten neurons has 64 small weights, one for every pixel. It adds up th
 ## Files
 
 ```
-paper/     the write-up (PDF and LaTeX)
+paper/     the write-up (PDF)
 rtl/       digitnet.v      the chip in Verilog
 test/      tb_full.sv      testbench with 540 test images
 scripts/   train_quantize.py   trains the model and shrinks it to 3 bits
